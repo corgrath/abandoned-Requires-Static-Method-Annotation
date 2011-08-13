@@ -149,10 +149,10 @@ public class RequiresMethodAnnotationProcessor extends AbstractProcessor {
 	private void error(final Element element, final StringBuilder debug, final String message) {
 
 		// Debug output (uncomment this to show debug message)
-		processingEnv.getMessager().printMessage(Kind.ERROR, debug.toString() + "\n\n" + message, element);
+		//		processingEnv.getMessager().printMessage(Kind.ERROR, debug.toString() + "\n\n" + message, element);
 
 		// Production output (uncomment this for production message)
-		// processingEnv.getMessager().printMessage(Kind.ERROR, message, element);
+		processingEnv.getMessager().printMessage(Kind.ERROR, message, element);
 
 	}
 

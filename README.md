@@ -5,6 +5,15 @@ Blog entry
 
 This project is described in a blog entry which can found here:
 
+How to enforce static methods on a class by using annotations and the Annotation Processing Tool (APT) 
+
+http://blog.christoffer.me/2011/08/how-to-enforce-static-methods-on-class.html
+
+
+Download
+========================================
+
+https://github.com/corgrath/Requires-Static-Method-Annotation/downloads
 
 
 Changes
